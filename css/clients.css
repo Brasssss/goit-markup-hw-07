@@ -1,0 +1,47 @@
+/* ------------Clients-------------- */
+.clients {
+  background-color: var(--background-color-full-white);
+}
+
+.clients-list,
+.clients-list-item,
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-list {
+  gap: 30px;
+}
+
+.clients-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--cliets-logo);
+  border-radius: 4px;
+  transition-property: border-color;
+  transition-duration: 250ms;
+  -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-icons {
+  fill: var(--cliets-logo);
+  transition-property: fill;
+  transition-duration: 250ms;
+  -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-link:hover,
+.clients-link:hover .clients-icons {
+  border-color: var(--accent-color-blue);
+  fill: var(--accent-color-blue);
+}
+
+.clients-link:focus,
+.clients-link:focus .clients-icons {
+  border-color: var(--accent-color-blue);
+  fill: var(--accent-color-blue);
+}

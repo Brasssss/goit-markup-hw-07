@@ -1,0 +1,56 @@
+
+
+.central-part {
+  background-color: var(--background-color-full-white);
+}
+
+.features {
+  padding-top: 94px;
+}
+
+.services,
+.team,
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features-list,
+.services-list {
+  display: flex;
+}
+
+.features-list-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+}
+
+.features-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features-div-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: var(--background-color-dark-white);
+}
+
+.features-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: var(--text-color-black);
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.14;
+  font-size: 14px;
+}
+
+.features-text {
+  color: var(--text-color-grey);
+  line-height: 1.71;
+}
