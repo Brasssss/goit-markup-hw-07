@@ -19,6 +19,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body class="body">
     <!------------------- header ---------------------->
@@ -440,7 +441,18 @@
                 required
               />
             </label>
-            <button type="submit" class="button-footer-form-submit">Підписатися</button>
+            <div class="footer-relative-div">
+              <button type="submit" class="button-footer-form-submit">
+                <span class="footer-button-text">Підписатися</span>
+                <span class="icon-span">
+                <svg class="social-icon plane" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-airplane"></use>
+                </svg>
+                </span>
+              </button>
+            </div> 
+            
+            
           </div>
         </form>
       </div>
@@ -498,7 +510,7 @@
             ></textarea>
           </label>
           <div class="div-input-check">
-            <input class="input-check is-hidden" type="checkbox" name="privacy" id="privacy" />
+            <input class="input-check visually-hidden" type="checkbox" name="privacy" id="privacy" />
             <label for="privacy" class="agree-check">
               <span class="check-span">
                 <svg class="icon-check-tik" width="16" height="15">
