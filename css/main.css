@@ -949,9 +949,10 @@ a {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.input-div-person,
-.input-div-phone,
-.input-div-mail {
+.div-person,
+.div-phone,
+.div-mail {
+  display: block;
   position: relative;
 }
 
