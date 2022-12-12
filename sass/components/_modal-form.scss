@@ -1,4 +1,4 @@
-.modal-window {
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -22,10 +22,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
-.fill-icon:hover,
-.fill-icon:focus {
+.modal-close:hover,
+.modal-close:focus {
   fill: var(--accent-color-blue);
 }
 

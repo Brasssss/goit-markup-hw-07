@@ -1,21 +1,33 @@
 
 .clients {
+  
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--background-color-full-white);
 }
+.clients__title {
+  margin-bottom: 50px;
 
-.clients-list,
-.clients-list-item,
-.clients-link {
+  color: var(--text-color-black);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.clients__list,
+.clients__item,
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.clients-list {
+.clients__list {
   gap: 30px;
 }
 
-.clients-link {
+.clients__link {
   width: 170px;
   height: 92px;
   border: 1px solid var(--cliets-logo);
@@ -26,21 +38,21 @@
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-icons {
+.clients__icons {
   fill: var(--cliets-logo);
   transition-property: fill;
   transition-duration: 250ms;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover,
-.clients-link:hover .clients-icons {
+.clients__link:hover,
+.clients__link:hover .clients__icons {
   border-color: var(--accent-color-blue);
   fill: var(--accent-color-blue);
 }
 
-.clients-link:focus,
-.clients-link:focus .clients-icons {
+.clients__link:focus,
+.clients__link:focus .clients__icons {
   border-color: var(--accent-color-blue);
   fill: var(--accent-color-blue);
 }

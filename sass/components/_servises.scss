@@ -1,12 +1,10 @@
-.services,
-.team,
-.clients {
+.services{
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 
-.section-title {
+.services__title {
   margin-bottom: 50px;
 
   color: var(--text-color-black);
@@ -15,20 +13,20 @@
   line-height: 1.17;
   text-align: center;
 }
-.services-list {
+.services__list {
   display: flex;
 } 
 
-.services-list-item,
-.team-list-item:not(:last-child) {
+.services__item,
+.services__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.subscription {
+.services__div-image {
   position: relative;
 }
 
-.subscription-item {
+.services__image-subscriprion {
   position: absolute;
 
   bottom: 0;
