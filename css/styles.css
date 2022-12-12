@@ -11,18 +11,23 @@
 Цвет лого черный #000000
 Цвет лого синий #2196F3 
 Цвет выделенного текста синий  #2196F3
-    цвет рамки  #EEEEEE
+цвет рамки  #EEEEEE
 цвет ссылок в адресе #rgba(255, 255, 255, .4)
 */
 
 
 
 
+
 /* --------------------header -------------------*/
+
+
 
 /* -----------------------герой/hero--------------------- */
 
+
 /* -------------особливості/central part------------------ */
+
 
 /*-----------------------особливості/features------------------------- */
 
@@ -31,16 +36,44 @@
 
 /* --------------------------команда розробникiв / team-------------------------- */
 
+
 /* ------------Clients-------------- */
+
+
 /* --------------------підвал/footer------------------------ */
-/* -----------------backdrop------------------------- */
 
 
-/* --------------backdrop-modal-form--------------------------  */
+/* 
+.input-div-person,
+.input-div-phone,
+.input-div-mail {
+  position: relative;
+}
 
+.input-icon-person,
+.input-icon-phone,
+.input-icon-mail {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition-property: fill;
+  transition-duration: 250ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.modal-input:hover + .input-icon-person {
+  fill: var(--accent-color-blue);
+}
+
+.modal-input:focus + .input-icon-person {
+  fill: var(--accent-color-blue);
+} */
 
 /* --------------------------portfolio -------------------------*/
 
 /* ---------------------------Перелік розробок / projects---------------------------- */
 
+
+
+/* ---------------modal-form--------------------------  */

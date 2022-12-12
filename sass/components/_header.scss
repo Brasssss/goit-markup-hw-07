@@ -1,8 +1,15 @@
-
 .header {
   background-color: var(--background-color-full-white);
 
   border-bottom: 1px solid #ececec;
+}
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
 }
 
 .navigate {
