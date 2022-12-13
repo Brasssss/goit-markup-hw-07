@@ -1,7 +1,7 @@
 .header {
-  background-color: var(--background-color-full-white);
+  background-color: $background-color-full-white;
 
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid $border-color-grey;
 }
 
 
@@ -15,25 +15,6 @@
   display: flex;
 }
 
-
-// .logo {
-//   display: block;
-//   padding-top: 24px;
-
-//   color: var(--logo-color-black);
-//   font-family: 'Raleway', sans-serif;
-//   font-weight: 700;
-//   font-size: 26px;
-//   line-height: 1.19;
-// }
-
-// .logo-part {
-//   color: var(--logo-color-blue);
-//   font-family: 'Raleway', sans-serif;
-//   font-weight: 700;
-//   font-size: 26px;
-//   line-height: 1.2;
-// }
 
 .nav-list,
 .contacts {
@@ -54,7 +35,7 @@
   padding-top: 32px;
   padding-bottom: 32px;
 
-  color: var(--text-color-black);
+  color: $text-color-black;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -66,11 +47,11 @@
 
 .nav-list__link:hover,
 .nav-list__link:focus {
-  color: var(--accent-color-blue);
+  color: $accent-color-blue;
 }
 
 .nav-list__link--active {
-  color: var(--accent-color-blue);
+  color: $accent-color-blue;
 }
 
 .nav-list__link--active::after {
@@ -82,7 +63,7 @@
   height: 4px;
   border-radius: 2px;
 
-  background: #2196f3;
+  background: $accent-color-blue;
 }
 
 .contacts__link {
@@ -91,7 +72,7 @@
   padding-top: 32px;
   padding-bottom: 32px;
 
-  color: var(--text-color-grey);
+  color: $text-color-grey;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -103,19 +84,19 @@
 
 .contacts__link:hover,
 .contacts__link:hover .contacts__icon {
-  color: var(--accent-color-blue);
-  fill: var(--accent-color-blue);
+  color: $accent-color-blue;
+  fill: $accent-color-blue;
 }
 
 .contacts__link:focus,
 .contacts__link:focus .contacts__icon {
-  color: var(--accent-color-blue);
-  fill: var(--accent-color-blue);
+  color: $accent-color-blue;
+  fill: $accent-color-blue;
 }
 
 .contacts__icon {
   margin-right: 10px;
-  fill: var(--text-color-grey);
+  fill: $text-color-grey;
 
   transition-property: fill;
   transition-duration: 250ms;
@@ -128,5 +109,5 @@
 
 .contacts__link:hover,
 .contacts__link:focus {
-  color: var(--accent-color-blue);
+  color: $accent-color-blue;
 }

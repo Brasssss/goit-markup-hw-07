@@ -3,7 +3,7 @@
   padding-top: 94px;
   padding-bottom: 94px;
 
-  background-color: var(--background-color-full-white);
+  background-color: $background-color-full-white;
 }
 
 .projects {
@@ -15,12 +15,12 @@
   justify-content: center;
   gap: 8px;
 
-  background-color: var(--background-color-full-white);
+  background-color: $background-color-full-white;
 }
 
 .list-item-button {
   margin-bottom: 50px;
-  background-color: var(--background-color-dark-white);
+  background-color: $background-color-dark-white;
 }
 
 .project-list-item-button {
@@ -30,7 +30,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  background-color: var(--background-color-dark-white);
+  background-color: $background-color-dark-white;
 
   transition-property: color;
   transition-property: background-color;
@@ -41,8 +41,8 @@
 
 .project-list-item-button:hover,
 .project-list-item-button:focus {
-  color: var(--background-color-full-white);
-  background-color: var(--accent-color-blue);
+  color: $background-color-full-white;
+  background-color: $accent-color-blue;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -57,7 +57,7 @@
 .portfolio-project-item {
   width: 370px;
   margin: 15px;
-  background-color: var(--background-color-full-white);
+  background-color: $background-color-full-white;
 }
 
 .portfolio-project-link {
@@ -77,9 +77,9 @@
 
 
 .border-div {
-  border-left: 1px solid #ececec;
-  border-right: 1px solid #ececec;
-  border-bottom: 1px solid #ececec;
+  border-left: 1px solid $border-color-grey;
+  border-right: 1px solid $border-color-grey;
+  border-bottom: 1px solid $border-color-grey;
 }
 
 .portfolio-project-list-title {
@@ -93,7 +93,7 @@
 
 .portfolio-project-list-text {
   padding-bottom: 20px;
-  color: var(--text-color-grey);
+  color: $text-color-grey;
   font-size: 16px;
   line-height: 1.88;
 }
@@ -127,7 +127,7 @@
   
   font-size: 18px;
   line-height: calc(28 / 18);
-  color: var(--text-color-white);
+  color: $text-color-white;
   background: rgba(33, 150, 243, 0.9);
   
   transform: translateY(100%);

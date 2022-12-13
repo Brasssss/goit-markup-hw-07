@@ -1,6 +1,6 @@
 .footer {
   padding-bottom: 60px;
-  background-color: var(--background-color-black);
+  background-color: $background-color-black;
 }
 
 // .footer-logo {
@@ -20,13 +20,13 @@
 }
 
 .address__link {
-  color: var(--text-color-white);
+  color: $text-color-white;
   line-height: 1.71;
   font-style: normal;
 }
 
 .address__contact {
-  color: var(--address-links-color-grey);
+  color: $address-links-color-grey;
   line-height: 1.71;
   font-style: normal;
   transition-property: color;
@@ -36,7 +36,7 @@
 
 .address__contact:hover,
 .address__contact:focus {
-  color: var(--accent-color-blue);
+  color: $accent-color-blue;
 }
 
 .flex {
@@ -55,7 +55,7 @@
 .footer-social__title {
   margin-bottom: 20px;
 
-  color: var(--text-color-white);
+  color: $text-color-white;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 1.14;
@@ -83,18 +83,18 @@
   margin-bottom: 30px;
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
 
-  fill: var(--background-color-full-white);
+  fill: $background-color-full-white;
 }
 
 .footer-social__link:hover {
-  background-color: var(--accent-color-blue);
+  background-color: $accent-color-blue;
   transition-property: background-color;
   transition-duration: 250ms;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social__link:focus {
-  background-color: var(--accent-color-blue);
+  background-color: $accent-color-blue;
 }
 
 /* ------------footer-form--------------- */
@@ -121,7 +121,7 @@
   line-height: 1.14;
   text-transform: uppercase;
 
-  color: var(--text-color-white);
+  color: $text-color-white;
 }
 
 
@@ -143,7 +143,7 @@
   align-items: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  background-color: var(--background-color-black);
+  background-color: $text-color-black;
 }
 
 .icon-button {
@@ -158,8 +158,8 @@
   font-size: 16px;
   line-height: 1.66;
   letter-spacing: 0.06em;
-  color: var(--text-color-white);
-  background-color: var(--accent-color-blue);
+  color: $text-color-white;
+  background-color: $accent-color-blue;
 
   transition-property: background-color;
   transition-property: box-shadow;
@@ -175,6 +175,6 @@
 }
 
 .icon-button__icon {
-  fill: var(--background-color-full-white);
+  fill: $background-color-full-white;
 margin-left: 10px;
 }

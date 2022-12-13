@@ -24,7 +24,7 @@
   width: 270px;
   height: 120px;
   border-radius: 4px;
-  background-color: var(--background-color-dark-white);
+  background-color: $background-color-dark-white;
 }
 
 .features__title {
@@ -38,6 +38,6 @@
 }
 
 .features__text {
-  color: var(--text-color-grey);
+  color: $text-color-grey;
   line-height: 1.71;
 }
